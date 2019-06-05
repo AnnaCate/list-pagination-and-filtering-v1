@@ -43,6 +43,12 @@ body{
       color: #fff
     }
 
+    .page-header .student-search a{
+      font-size: 12px;
+      padding-top: 20px;
+      float: right;
+    }
+
 .student-list{}
 
   .student-item{
