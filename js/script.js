@@ -60,9 +60,8 @@ const appendPageLinks = () => {
       ulPagination.appendChild(li);
    }  
 
-   // loop over pagination links to remove "active" class from all links
+   // create nodeList of <a> pagination elements
    const aList = ulPagination.querySelectorAll('a');
-   clearActiveClass(aList);
 
    // add event listener to <a> pagination elements
    divPagination.addEventListener('click', (e) => {
