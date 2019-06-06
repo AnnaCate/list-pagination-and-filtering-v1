@@ -94,7 +94,8 @@ const createSearchBar = () => {
    searchFormInput.setAttribute('id', 'search-input');
    // add text and type to button
    searchFormButton.textContent = 'Search';
-   searchFormButton.type = 'button';
+   // searchFormButton.type = 'button';
+   searchFormButton.setAttribute('type', 'button');
    // add default search elements to DOM
    header.appendChild(searchDiv);
    searchDiv.appendChild(searchForm);
