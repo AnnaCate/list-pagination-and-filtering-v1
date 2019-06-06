@@ -169,11 +169,11 @@ const clearSearch = () => {
    // clear search box
    const searchFormInput = document.querySelector('#search-input')
    searchFormInput.value = '';
-   // remove "Clear search" <a>
+   // remove "Clear search" anchor
    const searchDiv = document.querySelector('div.student-search');
-   const anchor = document.querySelector('#search-anchor');
+   let anchor = document.querySelector('#search-anchor');
    searchDiv.removeChild(anchor);
-   
+
    // set indicator to 'off'
    searchActive = false;
 }
