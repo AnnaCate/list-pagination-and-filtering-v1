@@ -3,6 +3,8 @@ This is a project from [treehouse](https://teamtreehouse.com/home), the purpose 
 
 The objective was the write a JavaScript file that would paginate the webpage so that no more than 10 students were visible on the page at a time. The extra credit task was to add a search bar/button at the top of the page.
 
+View live webpage [here](https://annacate.github.io/list-pagination-and-filtering-v1/).
+
 # Technology used
 HTML, CSS, and vanilla JavaScript
 
